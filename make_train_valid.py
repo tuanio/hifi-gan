@@ -14,7 +14,7 @@ all_wavs = os.listdir(wav_path)
 wavs = []
 
 for wav in tqdm(all_wavs, desc="Checking wavs..."):
-    w, sr = librosa.load(wav, sr=None)
+    w, sr = librosa.load(os.path.join(wav_path, wav), sr=None)
     if w.shape[0] / sr >= shortest_duration:
         wavs.append(wav)
 
