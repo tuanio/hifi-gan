@@ -6,7 +6,7 @@ from tqdm.auto import tqdm
 
 random.seed(1234)
 
-shortest_duration = 1.5 # 1 second
+shortest_duration = 1 # 1 second
 
 wav_path = '/home/stud_vantuan/share_with_150/data_CD/train_CD92/wav'
 all_wavs = os.listdir(wav_path)
