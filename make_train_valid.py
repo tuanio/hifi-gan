@@ -4,7 +4,7 @@ import os
 
 random.seed(1234)
 
-wav_path = '/home/stud_vantuan/share_with_150/data_CD/train/wav'
+wav_path = '/home/stud_vantuan/share_with_150/data_CD/train_CD92/wav'
 wavs = os.listdir(wav_path)
 
 random.shuffle(wavs)
